@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
      * Иванов 1 2 1 - 1 0,5 0.1 1
      * Написать программу расчета и вывода на экран среднего балла всех учеников.
      */
-    int missing_sems = task_two("/home/aleks/CLionProjects/kr/data/input_file");
+    int missing_sems = task_two(argv[1]);
     printf("Ответ на задачу 2: ");
     printf("общее количество незащищенных семинаров по группе равно %d\n", missing_sems);
 
@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
      * Написать программу расчета и вывода на экран среднего балла всех учеников.
      */
     printf("Ответ на задачу 3: ");
-    task_three("/home/aleks/CLionProjects/kr/data/data_all.csv");
+    task_three(argv[2]);
     printf("ответ записан в файл 'output'\n");
 
     return 0;

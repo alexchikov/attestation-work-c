@@ -1,0 +1,4 @@
+#bin/
+.idea/
+#data/*
+out/*

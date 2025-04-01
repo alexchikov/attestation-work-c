@@ -6,9 +6,10 @@
 #include <string.h>
 #include <time.h>
 #include <assert.h>
-#include "functions.h"
 #include <ctype.h>
+#include "functions.h"
 #include "linked.h"
+
 
 void trim(char *str) {
     int i;

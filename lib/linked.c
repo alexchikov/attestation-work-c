@@ -3,10 +3,10 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
-#include "linked.h"
-
 #include <stdbool.h>
 #include <string.h>
+#include "linked.h"
+
 
 node_t* init_list(int bytes, char* value) {
     node_t* head = NULL;

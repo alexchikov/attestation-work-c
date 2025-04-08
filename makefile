@@ -1,10 +1,10 @@
 CC=gcc
-CFLAGS=-c -Wall
+CFLAGS=-Wall
 
 all: clean main
 
 main: main.c
-	$(CC) $(C_FLAGS) main.c lib/*.c -o bin/main
+	$(CC) $(CFLAGS) main.c lib/*.c -o bin/main
 
 clean:
 	rm -rf bin/main
